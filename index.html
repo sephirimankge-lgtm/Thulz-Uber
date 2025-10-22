@@ -48,7 +48,12 @@
                 
                         <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
                         <input type="mobile" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" placeholder="(123) 456-7890">
-                          
+
+                        <label for="from" class="block text-gray-700 font-medium mb-2">Where Are You?</label>
+                        <input type="text" id="from" name="from" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" placeholder="TT"> 
+
+                        <label for="to" class="block text-gray-700 font-medium mb-2">Where Are You Going?</label>
+                        <input type="text" id="to" name="to" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" placeholder="Papas">                          
 
                         <label for="passengers" class="block text-gray-700 font-medium mb-2">How many are you?</label>
                         <input type="number" id="passengers" name="passengers" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" placeholder="1-5" required>
@@ -61,6 +66,14 @@
                             <option value="joyful trip">Joyful Trip</option>
                             <option value="general enquiries">General Enquiries</option>
                         </select> 
+
+                        <label for="payment" class="block text-gray-700 font-medium mb-2">Payment Method</label>
+                        <select id="payment" name="request" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                            <option value="">O Patela Bjang?</option>
+                            <option value="cash">Cash</option>
+                            <option value="capitec">Capitec</option>
+                            <option value="other transfer">Other Tranfer</option>
+                        </select>                           
                 
                         <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
                         <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" placeholder="Tell us about your project..."></textarea>
